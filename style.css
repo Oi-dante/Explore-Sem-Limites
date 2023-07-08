@@ -1,0 +1,81 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root{
+  --base-font: 'Mulish',sans-serif;
+  --white: #ffffff;
+  --light-gray: #f9f4fb;
+  --accent-color: #b52184;
+  --text-base-color: #312d64;
+  --gradient-background: linear-gradient(96.21deg, #343193 0%, #302c63 99.68%);
+
+}
+
+body {
+  font-size: 2rem;
+  font-family: var(--base-font);
+}
+
+img{
+  width: 100%;
+}
+
+/* TITLE */
+h1{
+  font-size: 2rem;
+}
+h1, h2, h3{
+  color: var(--accent-color);
+  font-weight: 900;
+}
+
+.title{
+  margin: 3.75rem;
+
+}
+.title p{
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 5px;
+}
+
+.down-buttom img{
+ 
+  height:105px ;
+  width: 60px;
+}
+
+.astronaut{
+
+}
+
+p{
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-base-color);
+}
+
+
+
+/* CARDS */
+.cards{
+}
+.card{
+  background: var(--text-base-color);
+}
+.card-text{
+  background:var(--light-gray);
+  padding: 2.5rem;
+  display: flex;
+
+}
+
+.card img{
+  width: 5rem;
+}
