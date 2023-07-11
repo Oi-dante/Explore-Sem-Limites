@@ -82,8 +82,6 @@ p{
   margin: 0 auto;
   transition: filter 300ms;
   
-
-
 }
 
 #titles .title .down-button:hover {
@@ -195,24 +193,98 @@ textarea {
   background: url(./assets/at.svg) no-repeat scroll 0.4rem 1.2rem;
 }
 
+/* Footer Section */
+footer {
+  background: var(--gradient-background);
+  padding: 3.2rem 1.6rem;
+}
+
+footer p {
+  color: var(--white);
+  font-size: 1.9rem;
+  line-height: 2.4rem;
+  font-weight: 600;
+  text-align: center;
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
+/* RESPONSIVENESS */
 
 @media(min-width: 1440px){
-  h1{
+/* GLOBAL STYLES */
+h1 {
+  font-size: 5.8rem;
+  line-height: 7.3rem;
+  margin: 0 0 0.8rem;
+}
 
-  }
+/* TITLE SECTION */
+#titles{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2.9rem 10.3rem 10.9rem;
+  max-height: 83.6rem;
+}
+
+#titles .title {
+  order: 1; 
+  margin-top: 31.2rem;
+}
+
+#titles .astronaut {
+  order: 2;
+}
+
+#titles .title p {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  margin-bottom: 17.9rem;
+}
+
+#titles .title .down-button {
+  margin: 0;
+  justify-self: flex-end;
+}
+
+/* CARDS SECTION */
+#cards {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6rem;
+  padding: 6.4rem 11.1rem 8rem;
+}
+
+#cards .card {
+  padding: 3.2rem;
+  border-radius: 2.4rem;
+}
+
+#cards .card img {
+  width: 9.7rem;
+  margin-bottom: 4rem;
+}
+
+/* CONTACTS SECTION */
+#contacts {
+  display: flex;
+  align-items: center;
+  gap: 9.2rem;
+  padding: 0;
+  height: 62.2rem;
+  margin: 0 auto;
+  background: url(./assets/stars.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#contacts form {
+  flex: 1;
+  margin-left: 10.9rem;
+}
+#contacts .stars {
+  flex: 1;
+}
 }
 
 
