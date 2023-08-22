@@ -1,7 +1,7 @@
 <h1 align="center">🪐Explore-Sem-Limites👨‍🚀</h1>
 
 <p align="center">Design challenge</p>
-<img src="./assets/readmeimg.png">
+<img src="./assets/readmeimg.png" align="center">
 
 <p>This project was made following Rocketseat's design, you can see the challenge by <a href="https://www.rocketseat.com.br/?utm_source=google&utm_medium=cpc&utm_campaign=lead&utm_term=perpetuo&utm_content=institucional-lead-home-texto-lead-brandkws-none-none-institucional-none-none-br-google&gclid=Cj0KCQjw8NilBhDOARIsAHzpbLDM_cVTTXtTZwkbS3sOjoQdaXI4LU_G_pIM7rUxfaVJ9WSqQlTCWzMaAqZ8EALw_wcB">clicking here.</a>
 
